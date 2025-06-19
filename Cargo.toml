@@ -1,0 +1,10 @@
+[package]
+name = "phannotate-r"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+needletail = "0.6"
+ordered-float = "5"
+clap = { version = "4.5", features = ["derive"] }
+rust_decimal = "1"
